@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Chromedriver">
+  <parameter name="browsers" value="test"/>
+    <classes>
+      <class name="com.selenium.day7.day9q4"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test"
+  <parameter name="browsers" value="Edge"/>
+  <classes>
+  <class name="com.selenium.day7.day9q4"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
